@@ -62,6 +62,7 @@ public class main {
 
 			System.out.println("The word is "+chosenWord.length()+" letters long");
 			gameLoop(sc, chosenWord, userWord);
+			sc.close();
 		}
 		catch(Exception error){
 			System.out.println("An error occurred: "+error.getMessage());
